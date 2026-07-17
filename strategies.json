@@ -1,0 +1,74 @@
+[
+  {
+    "id": "byd-decision-tree",
+    "name": "比亚迪决策树交易策略",
+    "subtitle": "BYD Decision Tree Trading Strategy",
+    "category": "ML模型",
+    "tags": ["决策树", "比亚迪", "A股", "分类模型", "RSI", "止损止盈"],
+    "description": "基于27个衍生特征（收益率、均线、RSI、MACD、波动率等）构建决策树模型，预测未来5日涨跌方向，叠加概率阈值、RSI过滤、均线趋势过滤等规则化风控，形成防御性交易策略。测试期超额收益 +12.53%，大幅跑赢买入持有基准。",
+    "metrics": {
+      "策略收益": "-0.83%",
+      "基准收益": "-13.37%",
+      "超额收益": "+12.53%",
+      "AUC": "0.41"
+    },
+    "color": "#667eea",
+    "icon": "tree",
+    "date": "2026-07",
+    "path": "strategies/byd-decision-tree/index.html"
+  },
+  {
+    "id": "stock-classification",
+    "name": "股票分类模型评估面板",
+    "subtitle": "Stock Classification Model Evaluation",
+    "category": "ML模型",
+    "tags": ["分类模型", "多股票", "评估面板", "特征工程"],
+    "description": "多维度股票分类模型综合评估面板，包含ROC曲线、混淆矩阵、特征重要性、概率分布等模型诊断图表，以及策略回测的核心指标和交易明细，全面展示模型从训练到策略落地的完整流程。",
+    "metrics": {
+      "类型": "分类评估",
+      "覆盖": "多股票",
+      "图表数": "11+",
+      "面板": "交互式"
+    },
+    "color": "#764ba2",
+    "icon": "chart",
+    "date": "2026-07",
+    "path": "strategies/stock-classification/index.html"
+  },
+  {
+    "id": "byd-turtle",
+    "name": "比亚迪海龟交易策略",
+    "subtitle": "BYD Turtle Trading Strategy",
+    "category": "量化策略",
+    "tags": ["海龟策略", "比亚迪", "A股", "趋势跟踪", "N日突破"],
+    "description": "基于经典海龟交易法则，使用N日高低点突破作为入场信号，配合ATR动态止损和仓位管理。面板展示策略回测全流程，包括信号识别、仓位计算、止损止盈和收益曲线。",
+    "metrics": {
+      "策略类型": "趋势跟踪",
+      "标的": "比亚迪",
+      "信号": "N日突破",
+      "风控": "ATR止损"
+    },
+    "color": "#f093fb",
+    "icon": "turtle",
+    "date": "2026-07",
+    "path": "strategies/byd-turtle/index.html"
+  },
+  {
+    "id": "byd-turtle-compare",
+    "name": "海龟策略 N20 vs N55 参数对比",
+    "subtitle": "Turtle Strategy Parameter Comparison",
+    "category": "量化策略",
+    "tags": ["海龟策略", "参数对比", "N20", "N55", "比亚迪"],
+    "description": "对比海龟策略不同突破周期（N20 vs N55）在比亚迪上的表现差异，分析短周期与长周期信号在趋势捕捉、交易频率和回撤控制上的优劣，为参数优化提供参考依据。",
+    "metrics": {
+      "对比参数": "N20 vs N55",
+      "标的": "比亚迪",
+      "分析维度": "收益/回撤/频率",
+      "面板": "交互式"
+    },
+    "color": "#4facfe",
+    "icon": "compare",
+    "date": "2026-07",
+    "path": "strategies/byd-turtle-compare/index.html"
+  }
+]
