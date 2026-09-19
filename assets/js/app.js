@@ -6,6 +6,7 @@ const ICONS = {
   chart: '\u{1F4CA}',
   turtle: '\u{1F422}',
   compare: '\u2696\uFE0F',
+  pdf: '\u{1F4C4}',
   default: '\u{1F4C8}'
 };
 

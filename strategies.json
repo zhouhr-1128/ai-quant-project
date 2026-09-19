@@ -70,5 +70,23 @@
     "icon": "compare",
     "date": "2026-07",
     "path": "strategies/byd-turtle-compare/index.html"
+  },
+  {
+    "id": "family-asset-allocation",
+    "name": "家庭资产配置方案",
+    "subtitle": "Family Asset Allocation - CPPI & Four-Money Framework",
+    "category": "资产配置",
+    "tags": ["CPPI", "四笔钱", "资产配置", "保本底线", "定投"],
+    "description": "基于 CPPI 固定比例投资组合保险策略与「四笔钱」框架的家庭资产配置方案：先测算保本底线（买房、买车、应急资金等未来刚性支出），剩余资金按 CPPI 动态调整风险资产比例，并给出股债、永久、全天候等经典组合参考与月度定投计划。",
+    "metrics": {
+      "框架": "CPPI + 四笔钱",
+      "保本底线": "100万元",
+      "可投长期": "54万元",
+      "篇幅": "14页"
+    },
+    "color": "#43e97b",
+    "icon": "pdf",
+    "date": "2026-09",
+    "path": "docs/family-asset-allocation.pdf"
   }
 ]
